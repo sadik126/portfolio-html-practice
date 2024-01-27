@@ -1,0 +1,25 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0
+}
+
+/* navbar styling starts */
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+.text-primary{
+  color: #FD6E0A;
+}
+
+/* navbar styling ends */
