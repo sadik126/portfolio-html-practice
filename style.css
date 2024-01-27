@@ -8,14 +8,23 @@
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+
 }
 
 nav{
     display: flex;
+    justify-content: space-between;
+    margin: 50px 171px;
+}
+
+nav ul{
+    display: flex;
+    
 }
 
 nav li{
     list-style: none;
+    margin-left: 5px;
 }
 
 .text-primary{
