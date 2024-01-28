@@ -19,12 +19,25 @@ nav{
 
 nav ul{
     display: flex;
+    align-items: center ;
     
 }
 
 nav li{
     list-style: none;
-    margin-left: 5px;
+    margin-left: 25px;
+}
+
+.btn-primary{
+    height: 64px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #FD6E0A;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    font-weight: 700;
 }
 
 .text-primary{
@@ -32,3 +45,26 @@ nav li{
 }
 
 /* navbar styling ends */
+
+/* banner starts */
+.banner{
+    margin: 0px 171px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-subtitle{
+ font-weight: 700;
+ font-size: 45px;
+
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+   
+   }
+
+   .banner-discription{
+     color: gray;
+   }
