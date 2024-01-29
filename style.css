@@ -1,70 +1,124 @@
-*{
-    font-family: "Open Sans", sans-serif;
-    margin: 0
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+.btn-primary {
+  height: 64px;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 20px;
+  background: #fd6e0a;
+  height: 64px;
+  border: 0;
+  padding: 18px 35px;
+  font-weight: 700;
+}
+
+.header {
+  background-color: aliceblue;
+  background-image: url("/developer.png"), url("/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left, bottom right;
 }
 
 /* navbar styling starts */
 
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
-
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 171px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 171px;
 }
 
-nav ul{
-    display: flex;
-    align-items: center ;
-    
+nav ul {
+  display: flex;
+  align-items: center;
 }
 
-nav li{
-    list-style: none;
-    margin-left: 25px;
+nav li {
+  list-style: none;
+  margin-left: 25px;
 }
 
-.btn-primary{
-    height: 64px;
-    color: aliceblue;
-    border-radius: 5px;
-    font-size: 20px;
-    background: #FD6E0A;
-    height: 64px;
-    border: 0;
-    padding: 18px 35px;
-    font-weight: 700;
-}
-
-.text-primary{
-  color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
 
 /* navbar styling ends */
 
 /* banner starts */
-.banner{
-    margin: 0px 171px;
-    display: flex;
-    align-items: center;
+.banner {
+  margin: 0px 171px;
+  display: flex;
+  align-items: center;
 }
 
-.banner-subtitle{
- font-weight: 700;
- font-size: 45px;
-
+.banner-subtitle {
+  font-weight: 700;
+  font-size: 45px;
 }
 
-.banner-title{
-    font-weight: 700;
-    font-size: 85px;
-   
-   }
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+}
 
-   .banner-discription{
-     color: gray;
-   }
+.banner-discription {
+  color: gray;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* banner ends */
+
+/* main section starts
+ */
+
+.main {
+  max-width: 1140px;
+
+  margin: 0 auto;
+}
+
+/* main ends  */
+
+/* about section starts  */
+
+.about {
+  padding: 130px 150px;
+  margin-top: 130px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+
+.about-info{
+display: flex;
+justify-content: space-between;
+}
+
+/* about section ends  */
